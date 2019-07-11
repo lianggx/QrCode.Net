@@ -3,3 +3,9 @@
 ################################################################################
 
 /Gma.QrCodeNet.dnxcore/Gma.QrCodeNet/.vs/Gma.QrCodeNet/v15
+/Gma.QrCodeNet.dnxcore/Gma.QrCodeNet/Gma.QrCodeNet.Demo/bin/Debug/netcoreapp2.2
+/Gma.QrCodeNet.dnxcore/Gma.QrCodeNet/Gma.QrCodeNet.Demo/obj
+/Gma.QrCodeNet.dnxcore/Gma.QrCodeNet/Gma.QrCodeNet.Encoding/bin/Debug/netstandard2.0
+/Gma.QrCodeNet.dnxcore/Gma.QrCodeNet/Gma.QrCodeNet.Encoding/obj
+/Gma.QrCodeNet.dnxcore/Gma.QrCodeNet/Gma.QrCodeNet.Encoding.Tests/bin/Debug/netcoreapp2.2
+/Gma.QrCodeNet.dnxcore/Gma.QrCodeNet/Gma.QrCodeNet.Encoding.Tests/obj

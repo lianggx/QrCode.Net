@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Gma.QrCodeNet.Demo</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Gma.QrCodeNet.Demo</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gma.QrCodeNet.Encoding\Gma.QrCodeNet.Encoding.csproj" />
+  </ItemGroup>
+
+</Project>
