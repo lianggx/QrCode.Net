@@ -12,6 +12,5 @@ apt-get install libgdiplus
 centos:
 
 ```C#
-sudo yum install libgdiplus
-sudo yum install libc6-dev
+sudo yum install libgdiplus-devel
 ```
