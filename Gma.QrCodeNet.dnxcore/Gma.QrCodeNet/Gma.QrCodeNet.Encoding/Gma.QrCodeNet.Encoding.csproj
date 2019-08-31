@@ -1,24 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>Update .NetStandard Version to 2.0 and fix bug,Source name is Gma.QrCodeNet.Encoding</Description>
+    <Description>Update .NetStandard Version to 2.0 and fix bug</Description>
     <AssemblyTitle>QrCodeNet.dnxcore</AssemblyTitle>
     <VersionPrefix>1.0.1</VersionPrefix>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Gma.QrCodeNet.Encoding</AssemblyName>
-    <PackageId>Gma.QrCodeNet.Core</PackageId>
+    <PackageId>QrCode.Net.Core</PackageId>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-    <PackageReleaseNotes>Update .NetStandard Version to 2.0 and fix bug,Source name is Gma.QrCodeNet.Encoding</PackageReleaseNotes>
+    <PackageReleaseNotes>Update .NetStandard Version to 2.0 and fix bug</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.1</Version>
-    <Authors>Gma.QrCodeNet.Core</Authors>
+    <Version>0.4.0</Version>
+    <Authors>lianggx</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ProjectUrl>https://github.com/lianggx/QrCode.Net</ProjectUrl>
+    <RepositoryUrl>https://github.com/lianggx/QrCode.Net</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
-    <PackageReference Include="System.Drawing.Primitives" Version="4.3.0" />
   </ItemGroup>
 
 </Project>

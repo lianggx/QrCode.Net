@@ -36,7 +36,7 @@ namespace Gma.QrCodeNet.Demo
             QrCode qrCode = qrEncoder.Encode("Hello World!");
 
             GraphicsRenderer renderer = new GraphicsRenderer(new FixedModuleSize(5, QuietZoneModules.Two), Brushes.Black, Brushes.White);
-            using (FileStream stream = new FileStream(@"c:\temp\HelloWorld.png", FileMode.Create))
+            using (FileStream stream = new FileStream(@"d:\HelloWorld.png", FileMode.Create))
             {
                 renderer.WriteToStream(qrCode.Matrix, ImageFormat.Png, stream);
             }
